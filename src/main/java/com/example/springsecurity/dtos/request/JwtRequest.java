@@ -1,4 +1,4 @@
-package com.example.springsecurity.data.models;
+package com.example.springsecurity.dtos.request;
 
 
 public class JwtRequest {

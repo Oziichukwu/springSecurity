@@ -1,4 +1,4 @@
-package com.example.springsecurity.data.models;
+package com.example.springsecurity.dtos.response;
 
 public class JwtResponse {
 
