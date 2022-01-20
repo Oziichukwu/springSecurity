@@ -1,4 +1,4 @@
-package com.example.springsecurity.filter;
+package com.example.springsecurity.security.filter;
 
 import com.example.springsecurity.services.CustomUserDetailService;
 import com.example.springsecurity.util.JwtUtil;
