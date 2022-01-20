@@ -1,6 +1,8 @@
 package com.example.springsecurity.data.models;
 
-public class AuthorityModels {
+import org.springframework.security.core.GrantedAuthority;
+
+public class AuthorityModel implements GrantedAuthority {
 
     private String Authority;
 
@@ -12,7 +14,7 @@ public class AuthorityModels {
         Authority = authority;
     }
 
-    public AuthorityModels(String authority) {
+    public AuthorityModel(String authority) {
         Authority = authority;
     }
 }
